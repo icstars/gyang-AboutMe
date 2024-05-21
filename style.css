@@ -67,6 +67,7 @@ img {
 }
  
 img:hover {
+    position:absolute;
   background-color: teal;
   margin-left: 10px;
   transition: 1s ease;
