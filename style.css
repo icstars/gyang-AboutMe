@@ -45,5 +45,28 @@ h1 {
   margin: 10px;
 }
 
+a:hover {
+  color: teal;
+  border: 8px solid black;]
+  
+}
+
+img {
+  position: left;
+  border: 5px solid teal;
+  background-color: black;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 1;
+}
+ 
+img:hover {
+  background-color: teal;
+  margin-left: 10px;
+  transition: 1s ease;
+  width: 300px;
+}
+ 
 /* nav a { */
 /* :hover ; */
