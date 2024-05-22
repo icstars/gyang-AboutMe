@@ -14,12 +14,12 @@ a {
   font-weight: 400;
   font-style: normal;
   background-color: burlywood;
-  animation: slidein 1s forwards;
-  animation-iteration-count: initial;
 }
 
 nav {
   background-color: black;
+  animation: slideIn 1s forwards;
+  animation-iteration-count: initial;
 }
 
 h1 {
@@ -92,32 +92,32 @@ img:hover {
     0% {
       background-image: url("/images/MCBC_Wireframe_Sprint1_presentation.png");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
     }
     20% {
       background-color: url("/images/MCBC_Wireframe_Sprint1_presentation2.png");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
     }
     40% {
-      background-image: url("images/MCBC_Wireframe_Sprint1_presentation3.png");
+      background-image: url("/images/MCBC_Wireframe_Sprint1_presentation3.png");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
     }
     60% {
-      background-color: url("/images/MCBC_Wireframe_Sprint1_presentation.png4");
+      background-color: url("/images/MCBC_Wireframe_Sprint1_presentation4.png");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
     }
     80% {
-      background-image: url("images/MCBC_Wireframe_Sprint1_presentation5.png");
+      background-image: url("/images/MCBC_Wireframe_Sprint1_presentation5.png");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
     }
     100% {
       background-color: url("/images/MCBC_Wireframe_Sprint1_presentation6.png");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
     }
   }
 
