@@ -71,8 +71,50 @@ img:hover {
   background-color: teal;
   margin-left: 10px;
   transition: 1s ease;
-  width: 300px;
+  width: 30%;
+  
 }
+
+.carousel {
+    width: 750px;
+    height: 500px;
+    background-origin: 5px dashed black;
+    animation: changeImage 15s forwards;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes changeImage {
+    0% {
+      background-image: url("/images/MCBC_Wireframe_Sprint1_presentation.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    20% {
+      background-color: url("/images/MCBC_Wireframe_Sprint1_presentation2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    40% {
+      background-image: url("images/MCBC_Wireframe_Sprint1_presentation3.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    60% {
+      background-color: url("/images/MCBC_Wireframe_Sprint1_presentation.png4");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    80% {
+      background-image: url("images/MCBC_Wireframe_Sprint1_presentation5.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    100% {
+      background-color: url("/images/MCBC_Wireframe_Sprint1_presentation6.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
  
 /* nav a { */
 /* :hover ; */
