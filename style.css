@@ -90,7 +90,7 @@ img:hover {
 
 @keyframes changeImage {
     0% {
-      background-image: url("../images/MCBC_Wireframe_Sprint1_presentation.png");
+      background-image: url("./images/MCBC_Wireframe_Sprint1_presentation.png");
       background-repeat: no-repeat;
       background-size: contain;
     }
