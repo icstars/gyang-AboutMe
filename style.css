@@ -95,27 +95,27 @@ img:hover {
       background-size: contain;
     }
     20% {
-      background-color: url("../images/MCBC_Wireframe_Sprint1_presentation2.png");
+      background-color: url("./images/MCBC_Wireframe_Sprint1_presentation2.png");
       background-repeat: no-repeat;
       background-size: contain;
     }
     40% {
-      background-image: url("../images/MCBC_Wireframe_Sprint1_presentation3.png");
+      background-image: url("./images/MCBC_Wireframe_Sprint1_presentation3.png");
       background-repeat: no-repeat;
       background-size: contain;
     }
     60% {
-      background-color: url("../images/MCBC_Wireframe_Sprint1_presentation4.png");
+      background-color: url("./images/MCBC_Wireframe_Sprint1_presentation4.png");
       background-repeat: no-repeat;
       background-size: contain;
     }
     80% {
-      background-image: url("../images/MCBC_Wireframe_Sprint1_presentation5.png");
+      background-image: url("./images/MCBC_Wireframe_Sprint1_presentation5.png");
       background-repeat: no-repeat;
       background-size: contain;
     }
     100% {
-      background-color: url("../images/MCBC_Wireframe_Sprint1_presentation6.png");
+      background-color: url("./images/MCBC_Wireframe_Sprint1_presentation6.png");
       background-repeat: no-repeat;
       background-size: contain;
     }
